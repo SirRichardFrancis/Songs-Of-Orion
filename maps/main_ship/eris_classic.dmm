@@ -1853,8 +1853,7 @@
 /turf/floor/tiled/dark,
 /area/eris/security/armory)
 "aeD" = (
-/obj/machinery/vending/hydroseeds{
-	},
+/obj/machinery/vending/hydroseeds,
 /turf/floor/tiled/dark,
 /area/eris/security/prison)
 "aeE" = (
@@ -7254,7 +7253,9 @@
 /turf/floor/tiled/steel,
 /area/eris/crew_quarters/toilet/medbay)
 "arh" = (
-/obj/structure/barricade,
+/obj/machinery/conveyor/west{
+	id = "cargo_load"
+	},
 /turf/floor/tiled/steel,
 /area/eris/quartermaster/hangarsupply)
 "ari" = (
@@ -8317,6 +8318,10 @@
 	pixel_x = -24;
 	pixel_y = -8
 	},
+/obj/machinery/conveyor_switch/oneway{
+	convdir = -1;
+	id = "cargo_load"
+	},
 /turf/floor/tiled/steel,
 /area/eris/quartermaster/hangarsupply)
 "aty" = (
@@ -9332,9 +9337,6 @@
 	},
 /turf/floor/tiled/dark/techfloor,
 /area/eris/hallway/side/section3starboard)
-"awy" = (
-/turf/floor/tiled/dark/danger,
-/area/eris/quartermaster/disposaldrop)
 "awz" = (
 /obj/structure/table/standard,
 /obj/item/device/lighting/toggleable/lamp,
@@ -29121,11 +29123,10 @@
 /turf/floor/tiled/steel,
 /area/eris/engineering/propulsion/right)
 "btw" = (
-/obj/machinery/conveyor_switch/oneway{
-	convdir = -1;
-	id = "cargo_intake"
+/obj/machinery/conveyor/east{
+	id = s
 	},
-/turf/floor/tiled/dark/techfloor,
+/turf/floor/tiled/dark/gray_platform,
 /area/eris/quartermaster/disposaldrop)
 "btx" = (
 /obj/structure/disposalpipe/segment{
@@ -29138,13 +29139,6 @@
 /obj/machinery/door/firedoor,
 /turf/wall/low/with_glass/smart,
 /area/eris/neotheology/chapelritualroom)
-"btz" = (
-/obj/machinery/light/small{
-	dir = 4;
-	pixel_y = 8
-	},
-/turf/floor/tiled/dark/techfloor,
-/area/eris/quartermaster/disposaldrop)
 "btA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
@@ -29181,9 +29175,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/floor/tiled/techmaint_cargo,
 /area/eris/maintenance/section4deck4central)
-"btF" = (
-/turf/wall,
-/area/eris/quartermaster/disposaldrop)
 "btH" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass_medical{
@@ -42383,11 +42374,6 @@
 	},
 /turf/floor/tiled/steel/gray_platform,
 /area/eris/hallway/main/section2)
-"bZl" = (
-/obj/machinery/trade_beacon/receiving,
-/obj/effect/floor_decal/industrial/outline/blue,
-/turf/floor/tiled/dark/techfloor,
-/area/eris/quartermaster/hangarsupply)
 "bZm" = (
 /obj/structure/cable/yellow{
 	d1 = 4;
@@ -42574,7 +42560,6 @@
 /turf/open,
 /area/eris/maintenance/section2deck3port)
 "bZD" = (
-/obj/machinery/trade_beacon/sending,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/floor/tiled/dark/techfloor,
 /area/eris/quartermaster/hangarsupply)
@@ -45179,7 +45164,6 @@
 /area/eris/rnd/server)
 "cfR" = (
 /obj/structure/table/rack,
-/obj/item/computer_hardware/hard_drive/portable/advanced/setup/security,
 /obj/item/cell/medium,
 /obj/item/computer_hardware/processor_unit,
 /obj/item/computer_hardware/tesla_link,
@@ -45303,7 +45287,6 @@
 /area/eris/command/meeting_room)
 "cgd" = (
 /obj/structure/table/rack,
-/obj/item/computer_hardware/hard_drive/portable/advanced/setup/medical,
 /obj/spawner/junkfood,
 /obj/item/cell/medium,
 /obj/item/computer_hardware/processor_unit,
@@ -56214,6 +56197,9 @@
 /obj/machinery/door/blast/regular{
 	id = "QMLoaddoor2";
 	name = "Supply Dock Loading Door"
+	},
+/obj/machinery/conveyor/east{
+	id = "cargo_unload"
 	},
 /turf/floor/tiled/steel,
 /area/eris/quartermaster/hangarsupply)
@@ -93140,10 +93126,16 @@
 	id = "QMLoaddoor";
 	name = "Supply Dock Loading Door"
 	},
+/obj/machinery/conveyor/west{
+	id = "cargo_load"
+	},
 /turf/floor/tiled/steel,
 /area/eris/quartermaster/hangarsupply)
 "exM" = (
 /obj/machinery/light/small,
+/obj/machinery/conveyor/west{
+	id = "cargo_load"
+	},
 /turf/floor/tiled/steel,
 /area/eris/quartermaster/hangarsupply)
 "exN" = (
@@ -97266,8 +97258,7 @@
 /turf/floor/tiled/cafe,
 /area/eris/crew_quarters/kitchen)
 "fvg" = (
-/obj/machinery/vending/hydroseeds{
-	},
+/obj/machinery/vending/hydroseeds,
 /turf/floor/grass,
 /area/eris/crew_quarters/hydroponics/garden)
 "fvm" = (
@@ -98041,6 +98032,12 @@
 	},
 /obj/effect/floor_decal/industrial/warning,
 /turf/floor/tiled/steel/monofloor,
+/area/eris/quartermaster/hangarsupply)
+"gVt" = (
+/obj/machinery/conveyor/east{
+	id = "cargo_unload"
+	},
+/turf/floor/tiled/steel,
 /area/eris/quartermaster/hangarsupply)
 "gWh" = (
 /obj/machinery/door/firedoor,
@@ -100622,7 +100619,7 @@
 /area/eris/quartermaster/hangarsupply)
 "lOS" = (
 /obj/machinery/conveyor/northeast{
-	id = "hangar_to_disposal"
+	id = "cargo_intake"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/floor/tiled/dark/gray_platform,
@@ -100641,8 +100638,7 @@
 /turf/floor/tiled/steel/monofloor,
 /area/eris/quartermaster/hangarsupply)
 "lQM" = (
-/obj/machinery/vending/hydroseeds{
-	},
+/obj/machinery/vending/hydroseeds,
 /turf/floor/wood,
 /area/eris/crew_quarters/hydroponics)
 "lSm" = (
@@ -101188,6 +101184,12 @@
 /obj/machinery/atmospherics/valve,
 /turf/floor/tiled/steel/techfloor_grid,
 /area/eris/engineering/propulsion/right)
+"mSv" = (
+/obj/machinery/conveyor/northeast/ccw{
+	id = "cargo_intake"
+	},
+/turf/floor/tiled/dark/gray_platform,
+/area/eris/quartermaster/disposaldrop)
 "mUH" = (
 /obj/structure/reagent_dispensers/watertank,
 /turf/floor/tiled/dark/gray_platform,
@@ -101954,10 +101956,6 @@
 	},
 /turf/floor/tiled/white,
 /area/eris/medical/chemistry)
-"oAd" = (
-/obj/structure/barricade,
-/turf/floor/tiled/steel/monofloor,
-/area/eris/quartermaster/hangarsupply)
 "oAL" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -102740,6 +102738,17 @@
 /obj/structure/cable/green,
 /turf/floor/tiled/white,
 /area/eris/medical/medbay/organs)
+"pZd" = (
+/obj/machinery/light/small{
+	dir = 4;
+	pixel_y = 8
+	},
+/obj/machinery/conveyor_switch/oneway{
+	convdir = -1;
+	id = "cargo_intake"
+	},
+/turf/floor/tiled/dark/techfloor,
+/area/eris/quartermaster/disposaldrop)
 "pZe" = (
 /turf/floor/tiled/white/golden,
 /area/eris/neotheology/bioprinter)
@@ -103450,6 +103459,15 @@
 	},
 /turf/floor/tiled/steel/monofloor,
 /area/eris/crew_quarters/fitness)
+"rrj" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/floor/tiled/dark/danger,
+/area/eris/quartermaster/disposaldrop)
 "rtb" = (
 /obj/structure/catwalk,
 /obj/structure/disposalpipe/segment{
@@ -104401,6 +104419,12 @@
 	},
 /turf/floor/tiled/dark,
 /area/eris/security/warden)
+"tbx" = (
+/obj/machinery/conveyor/northeast{
+	id = "cargo_intake"
+	},
+/turf/floor/tiled/dark/techfloor,
+/area/eris/quartermaster/disposaldrop)
 "tcf" = (
 /obj/structure/table/rack,
 /obj/spawner/rations,
@@ -104707,6 +104731,13 @@
 	},
 /turf/floor/tiled/steel/techfloor_grid,
 /area/eris/crew_quarters/artistoffice)
+"tzO" = (
+/obj/machinery/conveyor_switch/oneway{
+	convdir = -1;
+	id = "cargo_unload"
+	},
+/turf/floor/tiled/steel,
+/area/eris/quartermaster/hangarsupply)
 "tzQ" = (
 /obj/machinery/door/airlock/medical{
 	name = "Chemistry";
@@ -127877,8 +127908,8 @@ aZn
 aZn
 aAr
 bsR
-atM
-avz
+tbx
+mSv
 apV
 hCo
 hCo
@@ -128080,7 +128111,7 @@ awi
 aAz
 qdC
 btw
-avz
+apV
 apV
 aaa
 aaa
@@ -128281,9 +128312,9 @@ awk
 axM
 aAz
 qdC
-atM
 avz
 kFA
+aaa
 aaa
 aaa
 aaa
@@ -128483,9 +128514,9 @@ awk
 awW
 aAz
 qdC
-atM
 avz
 kFA
+aaa
 aaa
 aaa
 aaa
@@ -128685,9 +128716,9 @@ awf
 ayq
 avs
 qdC
-atM
 cpB
 apV
+aaa
 aaa
 aaa
 aaa
@@ -128886,10 +128917,10 @@ aty
 awi
 awi
 awi
-qdC
-awy
+rrj
 drX
 apV
+aaa
 aaa
 aaa
 aaa
@@ -129089,9 +129120,9 @@ atM
 atM
 atM
 qdC
-atM
 avz
 kFA
+aaa
 aaa
 aaa
 aaa
@@ -129291,9 +129322,9 @@ awl
 axO
 aTM
 fUS
-atM
 avz
 kFA
+aaa
 aaa
 aaa
 aaa
@@ -129492,10 +129523,10 @@ azO
 awn
 ays
 aTP
-atM
-btz
+pZd
 dEc
 apV
+aaa
 aaa
 aaa
 aaa
@@ -129695,9 +129726,9 @@ asT
 apV
 apV
 apV
-btF
 gLU
 apV
+aaa
 aaa
 aaa
 aaa
@@ -129897,9 +129928,9 @@ awg
 avn
 aBv
 aCu
-bvQ
 iun
 apn
+aaa
 auU
 cIk
 ewc
@@ -130103,10 +130134,10 @@ auV
 auV
 auV
 auV
-arh
-oAd
+gVt
+fFd
 amn
-oAd
+fFd
 arh
 auV
 aaa
@@ -130506,8 +130537,8 @@ ato
 ato
 ato
 ato
-ato
-ato
+tzO
+gVt
 fFd
 atx
 fFd
@@ -131315,7 +131346,7 @@ ato
 nqt
 kGH
 kGH
-bZl
+tcP
 kGH
 kGH
 oZm

@@ -77,6 +77,29 @@
 	icon_state = "floor6"
 	},
 /area/shuttle/pirate)
+"ay" = (
+/obj/structure/shuttle_part/cargo{
+	icon_state = "cargoshwall38"
+	},
+/turf/space,
+/area/shuttle/cargo/brazil)
+"aA" = (
+/obj/machinery/door/airlock/external{
+	frequency = 1380;
+	icon_state = "door_locked";
+	id_tag = "cargo_bay_door";
+	locked = 1;
+	name = "Cargo Docking Hatch";
+	req_access = list(13)
+	},
+/obj/machinery/door/blast/regular{
+	id = "QMLoaddoor";
+	name = "Supply Dock Loading Door"
+	},
+/turf/shuttle/floor/mining{
+	icon_state = "10,19"
+	},
+/area/shuttle/cargo/brazil)
 "aD" = (
 /turf/floor/tiled/dark/gray_perforated,
 /area/centcom/evac)
@@ -90,6 +113,12 @@
 "aI" = (
 /turf/floor/holofloor/tiled/dark,
 /area/holodeck/source/industrial)
+"aL" = (
+/obj/structure/shuttle_part/cargo{
+	icon_state = "cargoshwall9"
+	},
+/turf/space,
+/area/shuttle/cargo/brazil)
 "aR" = (
 /obj/structure/table/bar_special,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -145,6 +174,25 @@
 /obj/effect/floor_decal/industrial/danger,
 /turf/floor/holofloor/reinforced,
 /area/space)
+"bb" = (
+/obj/machinery/embedded_controller/radio/simple_docking_controller{
+	pixel_y = 25;
+	id_tag = "supply_shuttle"
+	},
+/turf/shuttle/floor/mining,
+/area/shuttle/cargo/brazil)
+"bc" = (
+/obj/structure/shuttle_part/cargo{
+	icon_state = "cargoshwall36"
+	},
+/turf/space,
+/area/shuttle/cargo/brazil)
+"bg" = (
+/obj/structure/shuttle_part/cargo{
+	icon_state = "cargoshwall16"
+	},
+/turf/space,
+/area/shuttle/cargo/brazil)
 "bt" = (
 /obj/structure/railing/holorailing/grey,
 /turf/open/holonofloor,
@@ -153,6 +201,22 @@
 /obj/structure/cryofeed,
 /turf/floor/tiled/dark/gray_platform,
 /area/centcom/evac)
+"bO" = (
+/turf/shuttle/wall/cargo{
+	icon_state = "cargoshwall31"
+	},
+/area/shuttle/cargo/brazil)
+"bU" = (
+/obj/structure/shuttle_part/cargo{
+	icon_state = "cargoshwall14"
+	},
+/turf/space,
+/area/shuttle/cargo/brazil)
+"bV" = (
+/turf/shuttle/wall/cargo{
+	icon_state = "cargoshwall4"
+	},
+/area/shuttle/cargo/brazil)
 "cg" = (
 /turf/floor/tiled/dark/gray_perforated,
 /area/holodeck/source/industrial_arena)
@@ -160,6 +224,12 @@
 /obj/machinery/cryopod,
 /turf/floor/tiled/dark/gray_platform,
 /area/centcom/evac)
+"cr" = (
+/obj/structure/shuttle_part/cargo{
+	icon_state = "cargoshwall19"
+	},
+/turf/space,
+/area/shuttle/cargo/brazil)
 "cE" = (
 /obj/structure/railing/holorailing,
 /turf/floor/holofloor/tiled/dark,
@@ -224,10 +294,22 @@
 /obj/structure/bed/chair/wood,
 /turf/floor/tiled/dark/gray_platform,
 /area/centcom/evac)
+"dt" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/shuttle/floor/mining,
+/area/shuttle/cargo/brazil)
 "dz" = (
 /obj/structure/lattice,
 /turf/open/holonofloor,
 /area/holodeck/source/wireframe)
+"dD" = (
+/obj/machinery/conveyor/west{
+	id = "cargo_load"
+	},
+/turf/shuttle/floor/mining,
+/area/shuttle/cargo/brazil)
 "dI" = (
 /obj/structure/mirror/antag{
 	pixel_x = 28
@@ -359,6 +441,15 @@
 /obj/structure/catwalk/holo,
 /turf/floor/holofloor/plating/under,
 /area/holodeck/source/industrial)
+"ei" = (
+/obj/structure/shuttle_part/cargo{
+	icon_state = "cargoshwall37"
+	},
+/turf/space,
+/area/shuttle/cargo/brazil)
+"ej" = (
+/turf/shuttle/wall/cargo,
+/area/shuttle/cargo/brazil)
 "ek" = (
 /turf/wall/low/with_glass/smart,
 /area/centcom/evac)
@@ -968,6 +1059,12 @@
 	},
 /turf/space/transit/north/shuttlespace_ns8,
 /area/space)
+"gY" = (
+/obj/structure/shuttle_part/cargo{
+	icon_state = "cargoshwall40"
+	},
+/turf/space,
+/area/shuttle/cargo/brazil)
 "gZ" = (
 /turf/wall/dummy,
 /area/centcom/merc_base)
@@ -2720,6 +2817,12 @@
 	icon_state = "wood"
 	},
 /area/wizard_station)
+"mK" = (
+/obj/structure/shuttle_part/cargo{
+	icon_state = "cargoshwall26"
+	},
+/turf/space,
+/area/shuttle/cargo/brazil)
 "mL" = (
 /obj/structure/bed/chair/custom/holochair/bar{
 	dir = 8
@@ -3032,6 +3135,16 @@
 	icon_state = "floor3"
 	},
 /area/shuttle/mercenary)
+"pb" = (
+/turf/shuttle/wall/cargo{
+	icon_state = "cargoshwall13"
+	},
+/area/shuttle/cargo/brazil)
+"ph" = (
+/turf/shuttle/wall/cargo{
+	icon_state = "cargoshwall30"
+	},
+/area/shuttle/cargo/brazil)
 "pm" = (
 /obj/structure/railing/holorailing/grey{
 	dir = 1
@@ -3039,6 +3152,17 @@
 /obj/structure/lattice,
 /turf/open/holonofloor,
 /area/holodeck/source/wireframe)
+"pE" = (
+/obj/machinery/conveyor/east{
+	id = "cargo_unload"
+	},
+/obj/structure/plasticflaps/mining,
+/obj/machinery/door/blast/regular{
+	id = "QMLoaddoor2";
+	name = "Supply Dock Loading Door"
+	},
+/turf/shuttle/floor/mining,
+/area/shuttle/cargo/brazil)
 "pO" = (
 /obj/effect/step_trigger/thrower{
 	affect_ghosts = 1;
@@ -3083,6 +3207,9 @@
 	name = "plating"
 	},
 /area/centcom/merc_base)
+"rn" = (
+/turf/shuttle/floor/mining,
+/area/shuttle/cargo/brazil)
 "rt" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -3241,6 +3368,11 @@
 	},
 /turf/floor/wood,
 /area/centcom/pirate_base)
+"ts" = (
+/turf/shuttle/wall/cargo{
+	icon_state = "cargoshwall17"
+	},
+/area/shuttle/cargo/brazil)
 "tv" = (
 /obj/structure/shuttle/engine/propulsion{
 	icon_state = "propulsion_r"
@@ -3336,6 +3468,12 @@
 /obj/item/bedsheet/hos,
 /turf/floor/carpet,
 /area/centcom/pirate_base)
+"ut" = (
+/obj/structure/shuttle_part/cargo{
+	icon_state = "cargoshwall39"
+	},
+/turf/space,
+/area/shuttle/cargo/brazil)
 "uu" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/shoes/sandal,
@@ -3437,6 +3575,11 @@
 	},
 /turf/floor/holofloor/tiled/dark,
 /area/holodeck/source/industrial_arena)
+"vy" = (
+/turf/shuttle/wall/cargo{
+	icon_state = "cargoshwall22"
+	},
+/area/shuttle/cargo/brazil)
 "vz" = (
 /obj/structure/table/bar_special,
 /turf/floor/holofloor/tiled/bar_light,
@@ -3673,6 +3816,11 @@
 	},
 /turf/floor/holofloor/reinforced,
 /area/holodeck/source/industrial)
+"yl" = (
+/turf/shuttle/wall/cargo{
+	icon_state = "cargoshwall28"
+	},
+/area/shuttle/cargo/brazil)
 "yn" = (
 /obj/effect/floor_decal/industrial/danger{
 	dir = 4
@@ -3723,6 +3871,12 @@
 	},
 /turf/floor/wood,
 /area/centcom/pirate_base)
+"yA" = (
+/obj/structure/shuttle_part/cargo{
+	icon_state = "cargoshwall34"
+	},
+/turf/space,
+/area/shuttle/cargo/brazil)
 "yD" = (
 /obj/structure/bed/chair/custom/holochair{
 	dir = 4
@@ -3913,6 +4067,17 @@
 	},
 /turf/floor/holofloor/carpet,
 /area/holodeck/source/texas)
+"Af" = (
+/obj/structure/shuttle_part/cargo{
+	icon_state = "cargoshwall23"
+	},
+/turf/space,
+/area/shuttle/cargo/brazil)
+"As" = (
+/turf/shuttle/wall/cargo{
+	icon_state = "cargoshwall20"
+	},
+/area/shuttle/cargo/brazil)
 "Av" = (
 /obj/structure/table/woodentable,
 /obj/item/storage/deferred/rations,
@@ -4058,6 +4223,11 @@
 /obj/effect/floor_decal/industrial/danger,
 /turf/floor/holofloor/reinforced,
 /area/holodeck/source/industrial)
+"Ce" = (
+/turf/shuttle/wall/cargo{
+	icon_state = "cargoshwall2"
+	},
+/area/shuttle/cargo/brazil)
 "Cf" = (
 /obj/structure/table/rack,
 /obj/item/tool/knife/ritual,
@@ -4084,6 +4254,12 @@
 	},
 /turf/open/holonofloor,
 /area/space)
+"CA" = (
+/obj/structure/shuttle_part/cargo{
+	icon_state = "cargoshwall12"
+	},
+/turf/space,
+/area/shuttle/cargo/brazil)
 "CD" = (
 /obj/structure/bed/chair/custom/holochair/bar,
 /turf/floor/holofloor/tiled/bar_light,
@@ -4171,6 +4347,12 @@
 	icon_state = "floor6"
 	},
 /area/shuttle/pirate)
+"Eb" = (
+/obj/structure/shuttle_part/cargo{
+	icon_state = "cargoshwall8"
+	},
+/turf/space,
+/area/shuttle/cargo/brazil)
 "Ec" = (
 /obj/structure/bed/chair/custom/holochair{
 	dir = 4
@@ -4217,6 +4399,17 @@
 	},
 /turf/wall/dummy,
 /area/space)
+"Et" = (
+/turf/shuttle/wall/cargo{
+	icon_state = "cargoshwall27"
+	},
+/area/shuttle/cargo/brazil)
+"Ey" = (
+/obj/structure/shuttle_part/cargo{
+	icon_state = "cargoshwall41"
+	},
+/turf/space,
+/area/shuttle/cargo/brazil)
 "ED" = (
 /obj/effect/floor_decal/industrial/danger{
 	dir = 1
@@ -4285,6 +4478,16 @@
 	},
 /turf/floor/holofloor/reinforced,
 /area/holodeck/source/industrial)
+"EW" = (
+/turf/shuttle/wall/cargo{
+	icon_state = "cargoshwall7"
+	},
+/area/shuttle/cargo/brazil)
+"EX" = (
+/turf/shuttle/wall/cargo{
+	icon_state = "cargoshwall15"
+	},
+/area/shuttle/cargo/brazil)
 "Fc" = (
 /turf/open/holonofloor,
 /area/holodeck/source/spacebar)
@@ -4301,6 +4504,12 @@
 	icon_state = "lino"
 	},
 /area/wizard_station)
+"Fm" = (
+/obj/machinery/conveyor/east{
+	id = "cargo_unload"
+	},
+/turf/shuttle/floor/mining,
+/area/shuttle/cargo/brazil)
 "Fp" = (
 /obj/structure/table/holo_woodentable,
 /turf/floor/holofloor/carpet,
@@ -4333,6 +4542,12 @@
 	icon_state = "floor3"
 	},
 /area/shuttle/mercenary)
+"FR" = (
+/obj/effect/shuttle_landmark/supply/centcom,
+/turf/shuttle/wall/cargo{
+	icon_state = "cargoshwall18"
+	},
+/area/shuttle/cargo/brazil)
 "FU" = (
 /obj/structure/table/steel,
 /obj/item/storage/deferred/toolmod,
@@ -4398,6 +4613,11 @@
 "Gw" = (
 /turf/floor/holofloor/tiled/bar_dance,
 /area/holodeck/source/spacebar)
+"GD" = (
+/turf/shuttle/wall/cargo{
+	icon_state = "cargoshwall29"
+	},
+/area/shuttle/cargo/brazil)
 "GL" = (
 /obj/structure/bed/chair/custom/holochair{
 	dir = 4
@@ -4686,6 +4906,11 @@
 	icon_state = "dark"
 	},
 /area/centcom/merc_base)
+"Kb" = (
+/turf/shuttle/wall/cargo{
+	icon_state = "cargoshwall24"
+	},
+/area/shuttle/cargo/brazil)
 "Ke" = (
 /obj/machinery/button/remote/blast_door{
 	id = "pirateshutters_right";
@@ -4823,6 +5048,11 @@
 /obj/structure/bed/chair/custom/holochair,
 /turf/floor/holofloor/carpet,
 /area/holodeck/source/texas)
+"LD" = (
+/turf/shuttle/wall/cargo{
+	icon_state = "cargoshwall33"
+	},
+/area/shuttle/cargo/brazil)
 "LG" = (
 /obj/machinery/door/airlock/external{
 	density = 1;
@@ -4867,6 +5097,11 @@
 /obj/effect/floor_decal/industrial/danger,
 /turf/floor/holofloor/tiled/dark,
 /area/space)
+"Mc" = (
+/turf/shuttle/wall/cargo{
+	icon_state = "cargoshwall10"
+	},
+/area/shuttle/cargo/brazil)
 "Mp" = (
 /obj/structure/table/steel_reinforced,
 /obj/effect/floor_decal/industrial/danger,
@@ -4878,6 +5113,17 @@
 	},
 /turf/floor/holofloor/reinforced,
 /area/space)
+"Mu" = (
+/obj/machinery/conveyor/west{
+	id = "cargo_load"
+	},
+/obj/structure/plasticflaps/mining,
+/obj/machinery/door/blast/regular{
+	id = "QMLoaddoor2";
+	name = "Supply Dock Loading Door"
+	},
+/turf/shuttle/floor/mining,
+/area/shuttle/cargo/brazil)
 "MA" = (
 /obj/structure/table/rack,
 /obj/item/storage/toolbox/electrical,
@@ -4974,6 +5220,12 @@
 	},
 /turf/floor/holofloor/carpet,
 /area/holodeck/source/texas)
+"NG" = (
+/obj/structure/shuttle_part/cargo{
+	icon_state = "cargoshwall35"
+	},
+/turf/space,
+/area/shuttle/cargo/brazil)
 "NK" = (
 /obj/effect/floor_decal/industrial/danger{
 	dir = 4
@@ -5204,10 +5456,20 @@
 	},
 /turf/floor/holofloor/reinforced,
 /area/space)
+"PD" = (
+/turf/shuttle/wall/cargo{
+	icon_state = "cargoshwall5"
+	},
+/area/shuttle/cargo/brazil)
 "PY" = (
 /obj/machinery/slotmachine,
 /turf/floor/holofloor/tiled/bar_light,
 /area/holodeck/source/spacebar)
+"Ql" = (
+/turf/shuttle/wall/cargo{
+	icon_state = "cargoshwall6"
+	},
+/area/shuttle/cargo/brazil)
 "Qo" = (
 /obj/structure/table/rack,
 /obj/item/storage/belt/utility/full,
@@ -5349,6 +5611,11 @@
 	},
 /turf/open/holonofloor,
 /area/holodeck/source/industrial_arena)
+"RE" = (
+/turf/shuttle/wall/cargo{
+	icon_state = "cargoshwall11"
+	},
+/area/shuttle/cargo/brazil)
 "RO" = (
 /obj/effect/floor_decal/industrial/danger{
 	dir = 4
@@ -5579,6 +5846,11 @@
 	icon_state = "dark"
 	},
 /area/centcom/merc_base)
+"Ua" = (
+/turf/shuttle/wall/cargo{
+	icon_state = "cargoshwall32"
+	},
+/area/shuttle/cargo/brazil)
 "Ug" = (
 /obj/machinery/light{
 	dir = 4
@@ -5601,6 +5873,12 @@
 /obj/item/reagent_containers/food/drinks/shaker,
 /turf/floor/holofloor/tiled/bar_light,
 /area/space)
+"Uv" = (
+/obj/structure/shuttle_part/cargo{
+	icon_state = "cargoshwall21"
+	},
+/turf/space,
+/area/shuttle/cargo/brazil)
 "Uy" = (
 /obj/structure/closet/secure_closet/freezer/kitchen{
 	req_access = list(150)
@@ -5784,6 +6062,11 @@
 /obj/structure/table/rack,
 /turf/floor/tiled/steel/gray_platform,
 /area/centcom/pirate_base)
+"Wv" = (
+/turf/shuttle/wall/cargo{
+	icon_state = "cargoshwall3"
+	},
+/area/shuttle/cargo/brazil)
 "Ww" = (
 /obj/structure/railing/holorailing/grey{
 	dir = 4
@@ -5901,6 +6184,11 @@
 	},
 /turf/floor/holofloor/tiled/bar_light,
 /area/space)
+"Yg" = (
+/turf/shuttle/wall/cargo{
+	icon_state = "cargoshwall25"
+	},
+/area/shuttle/cargo/brazil)
 "Yj" = (
 /obj/structure/table/reinforced,
 /obj/machinery/chemical_dispenser/beer,
@@ -6016,6 +6304,12 @@
 	},
 /turf/space/transit/north/shuttlespace_ns4,
 /area/space)
+"ZK" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/shuttle/floor/mining,
+/area/shuttle/cargo/brazil)
 "ZR" = (
 /obj/structure/bed/chair/custom/holochair{
 	dir = 1
@@ -10108,16 +10402,16 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Eb
+aL
+CA
+bU
+bg
+cr
+Uv
+Af
+mK
+yA
 aa
 aa
 aa
@@ -10310,16 +10604,16 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+EW
+Mc
+pb
+EX
+ts
+As
+vy
+Kb
+Et
+NG
 aa
 aa
 aa
@@ -10512,16 +10806,16 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Ql
+rn
+dt
+rn
+rn
+rn
+dt
+rn
+yl
+bc
 aa
 aa
 aa
@@ -10714,16 +11008,16 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+PD
+rn
+rn
+rn
+rn
+rn
+rn
+rn
+GD
+ei
 aa
 aa
 aa
@@ -10916,16 +11210,16 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+bV
+bb
+rn
+rn
+rn
+rn
+rn
+rn
+ph
+ay
 aa
 aa
 aa
@@ -11118,16 +11412,16 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Wv
+rn
+rn
+rn
+rn
+rn
+rn
+rn
+bO
+ut
 aa
 aa
 aa
@@ -11320,16 +11614,16 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Ce
+rn
+Fm
+rn
+ZK
+rn
+dD
+rn
+Ua
+gY
 aa
 aa
 aa
@@ -11522,16 +11816,16 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ej
+RE
+pE
+aA
+FR
+aA
+Mu
+Yg
+LD
+Ey
 aa
 aa
 aa
